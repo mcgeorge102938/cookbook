@@ -11,7 +11,8 @@ const mongoose = require('mongoose');
 
 // connect to the database
 mongoose.connect('mongodb://localhost:27017/cookbook', {
-  useNewUrlParser: true
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 });
 
 // Configure multer so that it will upload to '../front-end/public/images'
