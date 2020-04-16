@@ -18,6 +18,7 @@
   <div class="footer">
     <router-link to="/admin"><h1>Add A Recipe</h1></router-link>
     <router-link to="/admin2"><h1>Edit or Remove A Recipe</h1></router-link>
+    <a href="https://github.com/mcgeorge102938/cookbook">Github</a>
   </div>
 </div>
 </template>
